@@ -18,7 +18,7 @@ export function AnimatedModalDemo() {
     (<div className="">
       <Modal>
         <ModalTrigger
-          className="w-full bg-yellow-600 text-white py-2 rounded-lg hover:bg-yellow-700 transition mt-auto flex justify-center group/modal-btn">
+          className="w-full bg-customOrange text-white py-2 rounded-lg hover:bg-customOrange/50 transition mt-auto flex justify-center group/modal-btn">
           <span
             className="group-hover/modal-btn:translate-x-60 text-center transition duration-500">
             Book now

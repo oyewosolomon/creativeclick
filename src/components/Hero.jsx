@@ -35,14 +35,14 @@ const Hero = () => {
 
     return (
         <div className="text-black bg-white dark:bg-black dark:text-white min-h-screen p-8">
-        <section className="bg-yellow-600 text-white py-10 px-4 rounded-md">
+        <section className="bg-customPurple/80 text-white py-10 px-4 rounded-md">
           <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h2 className="text-4xl font-bold leading-tight mb-4">Discover <br />Creative Vision</h2>
               <p className="text-xl mb-4">
                 We are experienced and knowledgeable professionals who are experts in all aspects of digital and creative services. We are dedicated to helping businesses enhance their visibility and effectively engage with their target audience through innovative multimedia services.
               </p>
-              <button className="bg-white text-black font-bold py-3 px-6 rounded hover:bg-black hover:text-white">Let's talk</button>
+              <button className="bg-white text-black font-bold py-3 px-6 rounded hover:bg-customOrange hover:text-white">Let's talk</button>
             </div>
       
             <div ref={canvasRef} className={styles.main}>

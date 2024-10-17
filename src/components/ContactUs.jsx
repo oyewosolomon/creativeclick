@@ -28,7 +28,7 @@ export default function ContactUs() {
       <div className="py-12 px-4 grid sm:grid-cols-1 md:grid-cols-2 gap-4 sm:px-6 lg:px-8">
            {/* Additional Contact Details */}
             <div className="px-5">
-              <h2 className="text-yellow-600 my-5">Get In Touch</h2>
+              <h2 className="text-customOrange my-5">Get In Touch</h2>
               <h2 className="text-4xl font-bold text-black dark:text-white">Let's Work Together</h2>
               <div className='my-4'>
                 <hr className='border-1 border-black/20 dark:border-white mt-10' />
@@ -116,7 +116,7 @@ export default function ContactUs() {
 
                 <motion.button
                     type="submit"
-                    className="w-full px-4 py-2 mb-3 bg-yellow-600 text-white font-medium rounded-md shadow-sm hover:bg-yellow-700 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-2"
+                    className="w-full px-4 py-2 mb-3 bg-customOrange text-white font-medium rounded-md shadow-sm hover:bg-customOrange/60 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-2"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                 >
@@ -136,7 +136,7 @@ export default function ContactUs() {
           </h1>
         </div>
         <div>
-          <span className='text-4xl font-bold border-b-2 text-yellow-400'>
+          <span className='text-4xl font-bold border-b-2 text-customOrange/80'>
             Let's talk
           </span>
         </div>

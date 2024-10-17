@@ -15,6 +15,8 @@ module.exports = {
         background: "hls(var(--background))",
         foreground: "hls(var(--foreground))",
         primary: "hls(var(--primary))",
+        customPurple: 'rgba(54, 9, 79, 1)',
+        customOrange: 'rgba(255, 102, 0, 1)',
       },
     },
   },
