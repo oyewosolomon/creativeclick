@@ -44,7 +44,7 @@ const InfiniteBrandScroll = () => {
 
   useEffect(() => {
     startScrolling(); // Start the scrolling animation when component mounts
-  }, []);
+  }, [startScrolling]);
 
   return (
     

@@ -7,7 +7,6 @@ import { MdOutlineLightMode } from "react-icons/md";
 import Link from 'next/link'
 import { useTheme } from '../ThemeContext.jsx';
 
-
 const Navbar = () => {
     const { darkMode, toggleDarkMode } = useTheme();
   return (
@@ -21,7 +20,7 @@ const Navbar = () => {
         <button data-collapse-toggle="navbar-multi-level" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
             <span className="sr-only">Open main menu</span>
             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
             </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-multi-level">
@@ -29,10 +28,10 @@ const Navbar = () => {
                 <li>
                     <a href="#" className="block py-2 px-3 text-white bg-customOrange rounded md:bg-transparent md:text-customOrange  md:dark:text-customOrange dark:bg-customOrange md:dark:bg-transparent" aria-current="page">Home</a>
                 </li>
-                <li className='group relative'>
-                    <Link href={""} id="dropdownNavbarLink" className="group transition-all flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  md:w-auto dark:text-white md:dark:hover:text-customOrange dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
+                <li className="group relative">
+                    <Link href="" id="dropdownNavbarLink" className="group transition-all flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  md:w-auto dark:text-white md:dark:hover:text-customOrange dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                         About 
-                    <IoIosArrowDown className='group-hover:rotate-180  transition-all'/>
+                    <IoIosArrowDown className="group-hover:rotate-180  transition-all"/>
                     </Link>
             
                     <div id="dropdownNavbar" className="absolute z-10 hidden group-hover:flex group-hover:flex-col font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
@@ -43,7 +42,7 @@ const Navbar = () => {
                             <li aria-labelledby="dropdownNavbarLink">
                                 <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown" data-dropdown-placement="right-start" type="button" className="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown 
                                     <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
                                     </svg>
                                 </button>
                             <div id="doubleDropdown" className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
@@ -82,14 +81,14 @@ const Navbar = () => {
                     <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                 </li>               
                 <li>
-                <button type="button" className="text-white bg-black hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-white dark:text-black dark:hover:bg-customOrange dark:focus:ring-customOrange">Let's talk</button>
+                <button type="button" className="text-white bg-black hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-white dark:text-black dark:hover:bg-customOrange dark:focus:ring-customOrange">Let&apos;s talk</button>
                 </li>
                 
-                <div className='flex items-center place-items-center'>
+                <div className="flex items-center place-items-center">
                     {darkMode ? (
-                    <MdOutlineLightMode onClick={toggleDarkMode} className='align-middle size-6 cursor-pointer dark:text-white' />
+                    <MdOutlineLightMode onClick={toggleDarkMode} className="align-middle size-6 cursor-pointer dark:text-white" />
                     ) : (
-                    <IoIosMoon onClick={toggleDarkMode} className='align-middle size-6 cursor-pointer dark:text-white' />
+                    <IoIosMoon onClick={toggleDarkMode} className="align-middle size-6 cursor-pointer dark:text-white" />
                     )}
                 </div>
             </ul>

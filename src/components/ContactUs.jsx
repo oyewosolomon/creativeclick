@@ -1,14 +1,16 @@
 import { motion } from 'framer-motion';
 import { Locate, Mail, Phone } from 'lucide-react';
+import Image from 'next/image';
 import { MdEmail } from 'react-icons/md';
+import touchbg from '@/assets/DJI_0769.jpg';
 
 export default function ContactUs() {
   return (
     <div className="min-h-scren dark:bg-black dark:text-white">
       {/* Header Section with Image */}
       <div className="relative">
-        <img
-          src="/path-to-your-image.jpg" // Replace with the path to your header image
+        <Image
+          src={touchbg} // Replace with the path to your header image
           alt="Contact Us Header"
           className="w-full h-64 object-cover"
         />
@@ -30,15 +32,15 @@ export default function ContactUs() {
             <div className="px-5">
               <h2 className="text-customOrange my-5">Get In Touch</h2>
               <h2 className="text-4xl font-bold text-black dark:text-white">Let's Work Together</h2>
-              <div className='my-4'>
-                <hr className='border-1 border-black/20 dark:border-white mt-10' />
+              <div className="my-4">
+                <hr className="border-1 border-black/20 dark:border-white mt-10" />
               </div>
               <ul className="mt-4 space-y-4 dark:text-white/80 text-gray-500">
                 <li className="flex items-center space-x-4">
                   <Mail/>
-                  <div className=''>
+                  <div >
                     <p className="text-lg font-medium">Email</p>
-                    <p className="">contact@yourdomain.com</p>
+                    <p>contact@yourdomain.com</p>
                   </div>
                 </li>
                 <li className="flex items-center space-x-4">
@@ -129,14 +131,14 @@ export default function ContactUs() {
             </div>
       </div>
 
-      <div className='py-5 h-[200px] flex flex-col'>
+      <div className="py-5 h-[200px] flex flex-col">
         <div>
-          <h1 className='text-6xl font-extrabold my-5'>
+          <h1 className="text-6xl font-extrabold my-5">
           Have an idea for a project?
           </h1>
         </div>
         <div>
-          <span className='text-4xl font-bold border-b-2 text-customOrange/80'>
+          <span className="text-4xl font-bold border-b-2 text-customOrange/80">
             Let's talk
           </span>
         </div>
