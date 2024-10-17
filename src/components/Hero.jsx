@@ -42,7 +42,7 @@ const Hero = () => {
               <p className="text-xl mb-4">
                 We are experienced and knowledgeable professionals who are experts in all aspects of digital and creative services. We are dedicated to helping businesses enhance their visibility and effectively engage with their target audience through innovative multimedia services.
               </p>
-              <button className="bg-white text-black font-bold py-3 px-6 rounded hover:bg-customOrange hover:text-white">Let's talk</button>
+              <button className="bg-white text-black font-bold py-3 px-6 rounded hover:bg-customOrange hover:text-white">Let&apos;s talk</button>
             </div>
       
             <div ref={canvasRef} className={styles.main}>

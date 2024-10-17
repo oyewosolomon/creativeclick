@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect,useCallback } from 'react';
 import { motion, useAnimationControls } from 'framer-motion';
 import Image from 'next/image'
 import pwangroup from '@/assets/pwangroup.png';
@@ -22,7 +22,7 @@ const brands = [
 const InfiniteBrandScroll = () => {
   const controls = useAnimationControls();
 
-  const startScrolling = () => {
+  const startScrolling = useCallback(() => {
     controls.start({
       x: -100 * brands.length,
       transition: {
@@ -32,7 +32,7 @@ const InfiniteBrandScroll = () => {
         repeatType: 'loop',
       },
     });
-  };
+  }, [controls]);
 
   const handleMouseEnter = () => {
     controls.stop(); // Stop the scroll animation

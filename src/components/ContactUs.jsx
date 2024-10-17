@@ -10,7 +10,7 @@ export default function ContactUs() {
       {/* Header Section with Image */}
       <div className="relative">
         <Image
-          src={touchbg} // Replace with the path to your header image
+          src={touchbg}
           alt="Contact Us Header"
           className="w-full h-64 object-cover"
         />
@@ -31,7 +31,7 @@ export default function ContactUs() {
            {/* Additional Contact Details */}
             <div className="px-5">
               <h2 className="text-customOrange my-5">Get In Touch</h2>
-              <h2 className="text-4xl font-bold text-black dark:text-white">Let's Work Together</h2>
+              <h2 className="text-4xl font-bold text-black dark:text-white">Let&apos;s Work Together</h2>
               <div className="my-4">
                 <hr className="border-1 border-black/20 dark:border-white mt-10" />
               </div>
@@ -139,7 +139,7 @@ export default function ContactUs() {
         </div>
         <div>
           <span className="text-4xl font-bold border-b-2 text-customOrange/80">
-            Let's talk
+            Let&apos;s talk
           </span>
         </div>
       </div>
