@@ -13,6 +13,7 @@ import Package from "@/components/Package";
 import { Testimonials } from "@/components/Testimonials";
 import InfiniteBrandScroll from "@/components/InfiniteBrandScroll";
 import ContactUs from "@/components/ContactUs";
+import Team from "@/components/Team";
 export default function Home() {
   return (
     <>
@@ -25,6 +26,7 @@ export default function Home() {
         <About/>
         <Package/>
         <Testimonials/>
+        <Team/>
         <ContactUs/>
         <Footer/>
       </ReactLenis>

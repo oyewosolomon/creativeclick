@@ -6,7 +6,7 @@ import touchbg from '@/assets/DJI_0769.jpg';
 
 export default function ContactUs() {
   return (
-    <div className="min-h-scren dark:bg-black dark:text-white">
+    <div className="min-h-scren dark:bg-black dark:text-white" id='contact'>
       {/* Header Section with Image */}
       <div className="relative">
         <Image
@@ -131,14 +131,14 @@ export default function ContactUs() {
             </div>
       </div>
 
-      <div className="py-5 h-[200px] flex flex-col">
+      <div className="lg:px-8 py-12 px-4 sm:px-6 mb-10 h-[200px] flex flex-col">
         <div>
           <h1 className="text-6xl font-extrabold my-5">
           Have an idea for a project?
           </h1>
         </div>
         <div>
-          <span className="text-4xl font-bold border-b-2 text-customOrange/80">
+          <span className="text-4xl font-bold mb-10 border-b-2 text-customOrange/80">
             Let&apos;s talk
           </span>
         </div>

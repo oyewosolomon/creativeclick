@@ -72,13 +72,13 @@ const Navbar = () => {
                     </div>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                    <a href="#services" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Package</a>
+                    <a href="#package" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Package</a>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    <a href="#contact" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                 </li>               
                 <li>
                 <button type="button" className="text-white bg-black hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-white dark:text-black dark:hover:bg-customOrange dark:focus:ring-customOrange">Let&apos;s talk</button>
