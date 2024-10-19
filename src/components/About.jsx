@@ -23,7 +23,7 @@ const FeatureCard = ({ icon: Icon, title, description }) => (
 
 const About = () => {
   return (
-    <div className="text-black flex place-items-center bg-white dark:bg-black dark:text-white min-h-screen p-8">
+    <div id="our-company" className="text-black flex place-items-center bg-white dark:bg-black dark:text-white min-h-screen p-8">
       <div className='w-10/12 mx-auto '>
       <h2 className="text-3xl md:text-4xl font-extrabold mb-8">About Us</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

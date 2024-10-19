@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Team = () => {
   return (
-    <div className="" id='team'>
+    <div className="" id='our-team'>
         <div className='my-8'>
             <h1 className="text-4xl md:text-5xl font-bold text-black text-center px-4"
             
