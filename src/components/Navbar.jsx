@@ -29,7 +29,7 @@ const Navbar = () => {
                 </svg>
             </div>
             <AnimatePresence mode="wait">
-                {isActive && <Sidebar/>}
+            {isActive && <Sidebar isActive={isActive} setIsActive={setIsActive} />}
             </AnimatePresence>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-multi-level">
