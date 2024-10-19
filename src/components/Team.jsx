@@ -28,7 +28,7 @@ const Team = () => {
                     <div class="text-center mt-6">
                     
                         <h1 class="text-gray-900 text-xl font-bold mb-1">
-                            Hogan
+                        Ojochemi Eyo-Inyang
                         </h1>
 
                     
@@ -64,7 +64,7 @@ const Team = () => {
                 
                     <a href="#" class="mx-auto">
                         <Image class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                            src="/assets/ceo.jpg" height={200} width={300} />
+                            src="/assets/hogan.JPG" height={200} width={300} />
                     </a>
 
                     <div class="text-center mt-6">

@@ -25,7 +25,7 @@ export function AnimatedModalDemo() {
           </span>
           <div
             className="-translate-x-60 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 z-20">
-            Silver Package
+           Book now
           </div>
         </ModalTrigger>
         <ModalBody>

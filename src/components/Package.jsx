@@ -39,9 +39,7 @@ const Package = () => {
                        &nbsp;<span>Content Plan</span></li>
                 </ul>
                 <div className="mt-6">
-                  <button className="w-full bg-customOrange text-white py-2 rounded-lg hover:bg-customOrange transition mt-auto">
-                    Choose Bronze
-                  </button>
+                <AnimatedModalDemo/>  
                 </div>
               </div>
     
@@ -134,9 +132,10 @@ const Package = () => {
                        &nbsp;<span>Content Plan</span></li>
                 </ul>
                 <div className="mt-6">
-                  <button className="w-full bg-customOrange text-white py-2 rounded-lg hover:bg-customOrange transition mt-auto">
+                <AnimatedModalDemo/>  
+                  {/* <button className="w-full bg-customOrange text-white py-2 rounded-lg hover:bg-customOrange transition mt-auto">
                     Choose Gold
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
