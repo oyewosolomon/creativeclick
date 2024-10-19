@@ -17,6 +17,7 @@ import service5 from '@/assets/services-5.jpeg'
 import service6 from '@/assets/services-6.jpg'
 
 import styles from "./style.module.scss"
+import Contact from './Contact';
 
 const Hero = () => {
     const controls = useAnimation();
@@ -42,7 +43,9 @@ const Hero = () => {
               <p className="text-xl mb-4">
                 We are experienced and knowledgeable professionals who are experts in all aspects of digital and creative services. We are dedicated to helping businesses enhance their visibility and effectively engage with their target audience through innovative multimedia services.
               </p>
-              <button className="bg-white text-black font-bold py-3 px-6 rounded hover:bg-customOrange hover:text-white">Let&apos;s talk</button>
+              <div className="bg-white text-black font-bold px-6 rounded w-40">
+                <Contact/>
+                </div>
             </div>
       
             <div ref={canvasRef} className={styles.main}>

@@ -14,7 +14,53 @@ const Team = () => {
             </div>
         <div class="flex justify-center flex-wrap place-items-center">
             
-            
+                 
+        <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                <div class="flex flex-col">
+                
+                    <a href="#" class="mx-auto">
+                        <Image class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                            src="/assets/hogan.JPG" height={200} width={300} />
+                    </a>
+
+                    <div class="text-center mt-6">
+                    
+                        <h1 class="text-gray-900 text-xl font-bold mb-1">
+                            King Hogan
+                        </h1>
+
+                    
+                        <div class="text-gray-700 font-light mb-2">
+                            Founder/CEO
+                        </div>
+
+                    
+                        <div class="flex items-center justify-center opacity-50 hover:opacity-100
+                        transition-opacity duration-300">
+                        
+                            <a href="https://linkedin.com/in/creativeclickltd" class="flex rounded-full hover:bg-indigo-50 h-10 w-10">
+                                <i class="text-indigo-700 mx-auto mt-2">
+                                <Image src="/assets/linkedin.svg" width={30} height={30} />
+                                </i>
+                            </a>
+
+                        
+                            <a href="https://youtube.com/@creativeclickltd" class="flex rounded-full hover:bg-blue-50 h-10 w-10">
+                                <i class="text-blue-400 mx-auto mt-2">
+                                <Image src="/assets/youtube.svg" width={30} height={30} />
+                                </i>
+                            </a>
+
+                            <a href="https://instagram.com/creativeclickltd" class="flex rounded-full hover:bg-orange-50 h-10 w-10">
+                                <i class=" text-orange-400 mx-auto mt-2">
+                                    <Image src="/assets/instagram.svg" width={30} height={30} />
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
             <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
                 <div class="flex flex-col">
                 
@@ -58,53 +104,7 @@ const Team = () => {
                 </div>
             </div>
 
-        
-            <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                <div class="flex flex-col">
-                
-                    <a href="#" class="mx-auto">
-                        <Image class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                            src="/assets/hogan.JPG" height={200} width={300} />
-                    </a>
-
-                    <div class="text-center mt-6">
-                    
-                        <h1 class="text-gray-900 text-xl font-bold mb-1">
-                            King Hogan
-                        </h1>
-
-                    
-                        <div class="text-gray-700 font-light mb-2">
-                            Founder/CEO
-                        </div>
-
-                    
-                        <div class="flex items-center justify-center opacity-50 hover:opacity-100
-                        transition-opacity duration-300">
-                        
-                            <a href="#" class="flex rounded-full hover:bg-indigo-50 h-10 w-10">
-                                <i class="text-indigo-700 mx-auto mt-2">
-                                <Image src="/assets/linkedin.svg" width={30} height={30} />
-                                </i>
-                            </a>
-
-                        
-                            <a href="#" class="flex rounded-full hover:bg-blue-50 h-10 w-10">
-                                <i class="text-blue-400 mx-auto mt-2">
-                                <Image src="/assets/youtube.svg" width={30} height={30} />
-                                </i>
-                            </a>
-
-                            <a href="#" class="flex rounded-full hover:bg-orange-50 h-10 w-10">
-                                <i class=" text-orange-400 mx-auto mt-2">
-                                    <Image src="/assets/instagram.svg" width={30} height={30} />
-                                </i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+   
         
             <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
                 <div class="flex flex-col">

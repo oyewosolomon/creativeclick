@@ -3,6 +3,7 @@ import { Locate, Mail, Phone } from 'lucide-react';
 import Image from 'next/image';
 import { MdEmail } from 'react-icons/md';
 import touchbg from '@/assets/DJI_0769.jpg';
+import Contact from './Contact';
 
 export default function ContactUs() {
   return (
@@ -40,7 +41,7 @@ export default function ContactUs() {
                   <Mail/>
                   <div >
                     <p className="text-lg font-medium">Email</p>
-                    <p>contact@yourdomain.com</p>
+                    <p>hello@creativeclick.com</p>
                   </div>
                 </li>
                 <li className="flex items-center space-x-4">
@@ -48,14 +49,14 @@ export default function ContactUs() {
                    
                   <div>
                     <p className="text-lg font-medium">Phone</p>
-                    <p className="">+1 234 567 890</p>
+                    <p className="">+2349160002719</p>
                   </div>
                 </li>
                 <li className="flex items-center space-x-4">
                  <Locate/>
                   <div>
                     <p className="text-lg font-medium">Address</p>
-                    <p className="">123 Photography Lane, Studio City, CA</p>
+                    <p className="">www.creativeclickltd.com</p>
                   </div>
                 </li>
               </ul>
@@ -138,8 +139,8 @@ export default function ContactUs() {
           </h1>
         </div>
         <div>
-          <span className="text-4xl font-bold mb-10 border-b-2 text-customOrange/80">
-            Let&apos;s talk
+          <span className="text-4xl font-bold mb-10 text-customOrange/80">
+            <Contact/>
           </span>
         </div>
       </div>
