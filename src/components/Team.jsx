@@ -117,12 +117,12 @@ const Team = () => {
                     <div class="text-center mt-6">
                     
                         <h1 class="text-gray-900 text-xl font-bold mb-1">
-                            Kenji Milton
+                        Barrister Chioma Esuabom
                         </h1>
 
                     
                         <div class="text-gray-700 font-light mb-2">
-                            Team Memeber
+                            Lawyer
                         </div>
 
                     

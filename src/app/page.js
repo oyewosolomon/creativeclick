@@ -24,9 +24,9 @@ export default function Home() {
         <InfiniteBrandScroll/>
         <Services/>   
         <About/>
-        <Package/>
-        <Testimonials/>
         <Team/>
+        <Package/>
+        <Testimonials/>       
         <ContactUs/>
         <Footer/>
       </ReactLenis>
