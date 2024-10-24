@@ -21,28 +21,21 @@ const Services = () => {
 
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 place-items-center my-10'>
           {[
-            { title: 'Corporate & Brand Identity Video Content', img: service1 },
+            { title: 'Event covers', img: service1 },
             { title: 'Documentaries', img: service2 },
             { title: 'Live Streaming', img: service3 },
-            { title: 'Product-Focused Videos', img: service4 },
             { title: 'Photography', img: service5 },
-            { title: 'Cinematography', img: "/assets/cinema.jpg"  },
-            { title: 'Aerial Photography (Drone Production)', img: "/assets/aerial.jpg"},
+            { title: 'YouTube Content', img: "/assets/cinema.jpg"  },
+            { title: 'Drone Services', img: "/assets/aerial.jpg"},
             { title: 'Films Production', img: "/assets/film.jpeg"  },
-            { title: 'Real Estate Video Shoot', img: "/assets/drone1.jpg" },
-            { title: 'Event Coverage', img: service6 },
-            { title: 'Commercial Ads', img: "/assets/commercial.jpg" },
-            { title: 'Wedding Shoot', img: "/assets/wedding.jpg" },
-            { title: 'Post Production', img: "/assets/post-production.jpg" },
-            { title: 'Social Media Content', img: "/assets/social-media.jpg" },
-            { title: 'Interview Videos', img: "/assets/interview.jpg" },
-            { title: 'Explainer Videos', img: "/assets/explainer.jpg" },
-            { title: 'Graphics Design', img: "/assets/graphics.jpg" },
-            { title: 'Digital Marketing/SEO', img: "/assets/digital-marketing.jpg" },
-            { title: 'Audio Production', img: "/assets/audio-engineering.jpg" },
-            { title: 'Publicity and Advertising', img: "/assets/publicity.jpg" },
+            { title: 'Real Estate Content', img: "/assets/drone1.jpg" },
+            { title: 'Commercial', img: "/assets/commercial.jpg" },
+            { title: 'Website design', img: "/assets/post-production.jpg" },
+            { title: 'Podcast', img: "/assets/interview.jpg" },
+            { title: 'Live Streaming', img: "/assets/explainer.jpg" },
+            { title: 'Music Video', img: "/assets/audio-engineering.jpg" },
             { title: 'Media Consultancy', img: "/assets/consultancy.jpg" },
-            { title: 'Website design', img: service6 },
+          
           ].map((service, index) => (
             <motion.div
               key={index}

@@ -1,21 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
-import { motion } from 'framer-motion';
 
 const Team = () => {
   return (
     <div className="" id='our-team'>
         <div className='my-8'>
-            <h1 className="text-4xl md:text-5xl font-bold text-black text-center px-4"
-            
-            >
+            <h1 className="text-4xl md:text-5xl font-bold text-black text-center px-4">
                 Team
             </h1>
-            </div>
+        </div>
         <div class="flex justify-center flex-wrap place-items-center">
-            
-                 
-        <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+            <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
                 <div class="flex flex-col">
                 
                     <a href="#" class="mx-auto">
@@ -60,7 +55,7 @@ const Team = () => {
                     </div>
                 </div>
             </div>
- 
+    
             <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
                 <div class="flex flex-col">
                 
@@ -104,14 +99,12 @@ const Team = () => {
                 </div>
             </div>
 
-   
-        
             <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
                 <div class="flex flex-col">
                 
                     <a href="#" class="mx-auto">
                         <Image class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                            src="/assets/lawyer.jpg" height={200} width={300} />
+                            src="/assets/barr.jpg" height={180} width={300} />
                     </a>
 
                     <div class="text-center mt-6">
@@ -120,12 +113,10 @@ const Team = () => {
                         Barrister Chioma Esuabom
                         </h1>
 
-                    
                         <div class="text-gray-700 font-light mb-2">
                             Lawyer
                         </div>
 
-                    
                         <div class="flex items-center justify-center opacity-50 hover:opacity-100
                         transition-opacity duration-300">
                         
