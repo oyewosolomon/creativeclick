@@ -18,6 +18,7 @@ import service6 from '@/assets/services-6.jpg'
 
 import styles from "./style.module.scss"
 import Contact from './Contact';
+import CustomCarousel from './CustomCarousel';
 
 const Hero = () => {
     const controls = useAnimation();
@@ -55,6 +56,7 @@ const Hero = () => {
                 <directionalLight position={[2,1,1]}/>
                 <Cube canvasRef={canvasRef} />
               </Canvas>
+
             </div>
           </div>
         </section>

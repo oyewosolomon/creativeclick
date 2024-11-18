@@ -1,9 +1,11 @@
+"use client"
+
 import { motion } from 'framer-motion';
 import { Locate, Mail, Phone } from 'lucide-react';
 import Image from 'next/image';
-import { MdEmail } from 'react-icons/md';
 import touchbg from '@/assets/DJI_0769.jpg';
 import Contact from './Contact';
+import NewsletterEmbed from './NewesletterEmbed';
 
 export default function ContactUs() {
   return (
@@ -143,6 +145,8 @@ export default function ContactUs() {
             <Contact/>
           </span>
         </div>
+
+          <NewsletterEmbed/>
       </div>
     </div>
   );

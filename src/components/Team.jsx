@@ -15,7 +15,7 @@ const Team = () => {
                 
                     <a href="#" class="mx-auto">
                         <Image class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                            src="/assets/hogan.JPG" height={200} width={300} />
+                            src="/assets/hogan.JPG" height={200} width={300} alt='CEO' />
                     </a>
 
                     <div class="text-center mt-6">
@@ -35,20 +35,20 @@ const Team = () => {
                         
                             <a href="https://linkedin.com/in/creativeclickltd" class="flex rounded-full hover:bg-indigo-50 h-10 w-10">
                                 <i class="text-indigo-700 mx-auto mt-2">
-                                <Image src="/assets/linkedin.svg" width={30} height={30} />
+                                <Image src="/assets/linkedin.svg" width={30} height={30} alt='LinkedIn' />
                                 </i>
                             </a>
 
                         
                             <a href="https://youtube.com/@creativeclickltd" class="flex rounded-full hover:bg-blue-50 h-10 w-10">
                                 <i class="text-blue-400 mx-auto mt-2">
-                                <Image src="/assets/youtube.svg" width={30} height={30} />
+                                <Image src="/assets/youtube.svg" width={30} height={30} alt='Youtube' />
                                 </i>
                             </a>
 
                             <a href="https://instagram.com/creativeclickltd" class="flex rounded-full hover:bg-orange-50 h-10 w-10">
                                 <i class=" text-orange-400 mx-auto mt-2">
-                                    <Image src="/assets/instagram.svg" width={30} height={30} />
+                                    <Image src="/assets/instagram.svg" width={30} height={30} alt='IG'/>
                                 </i>
                             </a>
                         </div>
@@ -62,7 +62,7 @@ const Team = () => {
                     <a href="#" class="mx-auto">
                         <Image class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                         height={200} width={300} 
-                            src="/assets/manager.jpg"/>
+                            src="/assets/manager.jpg" alt='Manager'/>
                     </a>
 
                     
@@ -104,7 +104,7 @@ const Team = () => {
                 
                     <a href="#" class="mx-auto">
                         <Image class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                            src="/assets/barr.jpg" height={180} width={300} />
+                            src="/assets/barr.jpg" height={180} width={300} alt='lawyer' />
                     </a>
 
                     <div class="text-center mt-6">

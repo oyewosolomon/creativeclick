@@ -1,3 +1,5 @@
+"use client"
+
 import Image from 'next/image'
 import React, { useState } from 'react'
 import logo from '@/assets/creativeclick.jpg'
@@ -38,7 +40,7 @@ const Navbar = () => {
                     <a href="#" className="block py-2 px-3 text-white bg-customOrange rounded md:bg-transparent md:text-customOrange  md:dark:text-customOrange dark:bg-customOrange md:dark:bg-transparent" aria-current="page">Home</a>
                 </li>
                 <li className="group relative">
-                    <Link href="" id="dropdownNavbarLink" className="group transition-all flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  md:w-auto dark:text-white md:dark:hover:text-customOrange dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
+                    <Link href="/aboutus" id="dropdownNavbarLink" className="group transition-all flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  md:w-auto dark:text-white md:dark:hover:text-customOrange dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                         About 
                     <IoIosArrowDown className="group-hover:rotate-180  transition-all"/>
                     </Link>
@@ -55,13 +57,13 @@ const Navbar = () => {
                     </div>
                 </li>
                 <li>
-                    <a href="#services" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                    <a href="/services" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
                 </li>
                 <li>
                     <a href="#package" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Package</a>
                 </li>
                 <li>
-                    <a href="#contact" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    <Link href="/contactus" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-customOrange  dark:text-white md:dark:hover:text-customOrange dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</Link>
                 </li>               
                 <li>
                 <button type="button" className="text-white bg-black hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:bg-customOrange font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-white dark:text-black dark:hover:bg-customOrange dark:focus:ring-customOrange">Let&apos;s talk</button>
