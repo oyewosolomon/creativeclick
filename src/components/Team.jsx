@@ -6,132 +6,72 @@ const Team = () => {
     <div className="" id='our-team'>
         <div className='my-8'>
             <h1 className="text-4xl md:text-5xl font-bold text-black text-center px-4">
-                Team
+            Executive Team
             </h1>
         </div>
         <div class="flex justify-center flex-wrap place-items-center">
             <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                <div class="flex flex-col">
+                <div class="flex flex-col rounded-2xl bg-gray-100 hover:bg-gray-800 hover:text-white">
                 
                     <a href="#" class="mx-auto">
-                        <Image class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                        <Image class="rounded-t-2xl w-full drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                             src="/assets/hogan.JPG" height={200} width={300} alt='CEO' />
                     </a>
 
-                    <div class="text-center mt-6">
+                    <div class="text-center my-6">
                     
-                        <h1 class="text-gray-900 text-xl font-bold mb-1">
+                        <h1 class=" text-xl font-bold mb-1">
                             King Hogan
                         </h1>
 
                     
-                        <div class="text-gray-700 font-light mb-2">
+                        <div class="font-normal mb-1">
                             Founder/CEO
-                        </div>
-
-                    
-                        <div class="flex items-center justify-center opacity-50 hover:opacity-100
-                        transition-opacity duration-300">
-                        
-                            <a href="https://linkedin.com/in/creativeclickltd" class="flex rounded-full hover:bg-indigo-50 h-10 w-10">
-                                <i class="text-indigo-700 mx-auto mt-2">
-                                <Image src="/assets/linkedin.svg" width={30} height={30} alt='LinkedIn' />
-                                </i>
-                            </a>
-
-                        
-                            <a href="https://youtube.com/@creativeclickltd" class="flex rounded-full hover:bg-blue-50 h-10 w-10">
-                                <i class="text-blue-400 mx-auto mt-2">
-                                <Image src="/assets/youtube.svg" width={30} height={30} alt='Youtube' />
-                                </i>
-                            </a>
-
-                            <a href="https://instagram.com/creativeclickltd" class="flex rounded-full hover:bg-orange-50 h-10 w-10">
-                                <i class=" text-orange-400 mx-auto mt-2">
-                                    <Image src="/assets/instagram.svg" width={30} height={30} alt='IG'/>
-                                </i>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
     
             <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                <div class="flex flex-col">
+                <div class="flex flex-col rounded-2xl bg-gray-100 hover:bg-gray-800 hover:text-white">
                 
                     <a href="#" class="mx-auto">
-                        <Image class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                        <Image class=" rounded-t-2xl drop-shadow-md w-full hover:drop-shadow-xl transition-all duration-200 delay-100"
                         height={200} width={300} 
                             src="/assets/manager.jpg" alt='Manager'/>
                     </a>
 
                     
-                    <div class="text-center mt-6">
+                    <div class="text-center my-6">
                     
-                        <h1 class="text-gray-900 text-xl font-bold mb-1">
-                        Ojochemi Eyo-Inyang
+                        <h1 class="text-xl font-bold mb-1">
+                        Ojochemi EYO-Inyang 
                         </h1>
 
                     
-                        <div class="text-gray-700 font-light mb-2">
-                            Manager
-                        </div>
-
-                    
-                        <div class="flex items-center justify-center opacity-50 hover:opacity-100
-                        transition-opacity duration-300">
-                        
-                            <a href="#" class="flex rounded-full hover:bg-indigo-50 h-10 w-10">
-                                <i class="mdi mdi-linkedin text-indigo-500 mx-auto mt-2"></i>
-                            </a>
-
-                        
-                            <a href="#" class="flex rounded-full hover:bg-blue-50 h-10 w-10">
-                                <i class="mdi mdi-twitter text-blue-300 mx-auto mt-2"></i>
-                            </a>
-
-                            
-                            <a href="#" class="flex rounded-full hover:bg-orange-50 h-10 w-10">
-                                <i class="mdi mdi-instagram text-orange-400 mx-auto mt-2"></i>
-                            </a>
+                        <div class="font-normal mb-2">
+                        COO/ Director
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                <div class="flex flex-col">
+                <div class="flex flex-col bg-gray-100 rounded-2xl  hover:bg-gray-800 hover:text-white">
                 
-                    <a href="#" class="mx-auto">
-                        <Image class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                            src="/assets/barr.jpg" height={180} width={300} alt='lawyer' />
-                    </a>
+                    <div class="mx-auto">
+                        <Image class=" w-full rounded-t-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                            src="/assets/barr-1.jpg" height={100} width={300} objectFit='contain' alt='lawyer' />
+                    </div>
 
-                    <div class="text-center mt-6">
+                    <div class="text-center my-6">
                     
-                        <h1 class="text-gray-900 text-xl font-bold mb-1">
+                        <h1 class="text-xl font-bold mb-1">
                         Barrister Chioma Esuabom
                         </h1>
 
-                        <div class="text-gray-700 font-light mb-2">
-                            Lawyer
-                        </div>
-
-                        <div class="flex items-center justify-center opacity-50 hover:opacity-100
-                        transition-opacity duration-300">
-                        
-                            <a href="#" class="flex rounded-full hover:bg-indigo-50 h-10 w-10">
-                                <i class="mdi mdi-linkedin text-indigo-700 mx-auto mt-2"></i>
-                            </a>
-
-                            <a href="#" class="flex rounded-full hover:bg-blue-50 h-10 w-10">
-                                <i class="mdi mdi-twitter text-blue-400 mx-auto mt-2"></i>
-                            </a>
-
-                        
-                            <a href="#" class="flex rounded-full hover:bg-orange-50 h-10 w-10">
-                                <i class="mdi mdi-instagram text-orange-400 mx-auto mt-2"></i>
-                            </a>
+                        <div class="font-normal mb-2">
+                        Legal officer
                         </div>
                     </div>
                 </div>

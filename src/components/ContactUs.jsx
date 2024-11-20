@@ -136,7 +136,7 @@ export default function ContactUs() {
 
       <div className="lg:px-8 py-12 px-4 sm:px-6 mb-10 h-[200px] flex flex-col">
         <div>
-          <h1 className="text-6xl font-extrabold my-5">
+          <h1 className="text-5xl md:text-6xl font-extrabold my-5">
           Have an idea for a project?
           </h1>
         </div>

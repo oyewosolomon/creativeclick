@@ -21,31 +21,30 @@ const FeatureCard = ({ icon: Icon, title, description }) => (
 
 
 
-const About = () => {
+const Aboutus = () => {
   return (
     <div id="our-company" className="text-black flex place-items-center bg-white dark:bg-black dark:text-white  min-h-screen p-8">
-      <div className='w-full md:w-9/12 mx-auto'>
-        <h2 className="text-3xl md:text-4xl font-extrabold mb-8">About Us</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <FeatureCard
-            icon={Film}
-            title="Who We Are"
-            description="The Lenses that Boost Your Business!."
-          />
-          <FeatureCard
-            icon={CustomSVGVision}
-            title="Our Vision"
-            description="Uniting Innovation through tailored media solution."
-          />
-          <FeatureCard
-            icon={CustomSVGMission}
-            title="Our Mission"
-            description="To harness the innovation of our clients by creating compelling and engaging content that generates leads and enhances visibility."
-          />
-        </div>
+      <div className='w-10/12 mx-auto '>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <FeatureCard
+          icon={Film}
+          title="Who We Are"
+          description="The Lenses that Boost Your Business!."
+        />
+        <FeatureCard
+          icon={CustomSVGVision}
+          title="Our Vision"
+          description="Uniting Innovation through tailored media solution."
+        />
+        <FeatureCard
+          icon={CustomSVGMission}
+          title="Our Mission"
+          description="To harness the innovation of our clients by creating compelling and engaging content that generates leads and enhances visibility."
+        />
+      </div>
       </div>
     </div>
   )
 }
 
-export default About
+export default Aboutus

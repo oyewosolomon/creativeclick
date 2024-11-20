@@ -4,10 +4,11 @@ import { AnimatedModalDemo } from "@/components/Modal";
 
 const Package = () => {
     return (
-        <div className="bg-gray-100 dark:bg-black min-h-screen" id='package'>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-gray-100 dark:bg-black min-h-screen py-10 "  id='package'>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
             <div className="text-center mb-12">
-              <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white">Pricing Packages</h1>
+
+              <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white pt-10">Pricing Packages</h1>
               <p className="mt-4 text-lg text-gray-600 dark:text-white">Choose the best plan for your business needs.</p>
             </div>
     
