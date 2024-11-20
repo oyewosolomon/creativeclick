@@ -63,6 +63,7 @@ module.exports = {
   	}
   },
   plugins: [
+	require('@tailwindcss/typography'),
     plugin(function({addVariant}){
       addVariant('neon','.neon &')
     }),

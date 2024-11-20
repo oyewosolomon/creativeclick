@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Creative Click",
+  title: "Creative Click: Vision to Visuals",
   description: "Your comprehensive multimedia solutions provider.",
 };
 
