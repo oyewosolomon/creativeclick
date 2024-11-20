@@ -3,6 +3,33 @@
 export const teamMembers = [
     {
       id: 1,
+      name: " MR, INYANG EYO",
+      title: "",
+      role: "Founder/CEO",
+      slug: "inyan-eyo",
+      image: "/assets/hogan.JPG",
+      summary: "Founder and CEO with extensive experience...",
+      expertise: [
+        // Add expertise
+      ],
+      fullBio: `
+       
+        <p>FOUNDER & Cinematographer</p>
+
+        <p>As the fonder and the CEO of Creative Click Ltd, a leading creative agency, I bring a unique blend of business acumen and artistic vision to the forefront of the media industry. With a deep-rooted passion for visual storytelling, I have carved out a distinguished career as a cinematographer, delivering innovative and impactful solutions to organizations both locally and internationally.
+        </p>
+
+        <p>Under my leadership, Creative Click Ltd has become synonymous with creativity, quality, and innovation. We specialize in crafting tailored visual experiences that resonate with audiences across various platforms, from feature films and television series to commercials, digital content, and corporate media. My role as Founder and CEO involves steering the strategic direction of the company, fostering a culture of creativity and excellence, and ensuring that we consistently exceed client expectations.
+        </p>
+        <p>As a cinematographer, I have had the privilege of working with a diverse range of clients in the media space, developing customized visual strategies that align with their brand identity and objectives. My work is characterized by a meticulous attention to detail, a strong sense of composition, and a deep understanding of the power of visual narratives. Whether working on large-scale international productions or intimate local projects, I bring the same level of dedication and creativity to every endeavor.
+        </p>
+        <p>My dual role as CEO and cinematographer allows me to bridge the gap between creative vision and business strategy, ensuring that every project we undertake is not only visually stunning but also aligned with our clients' goals and market demands. With a global perspective and a commitment to pushing the boundaries of what's possible, I am dedicated to leading Creative Click Ltd to new heights in the ever-evolving media landscape.
+        </p>
+
+      `
+    },
+    {
+      id: 2,
       name: "Ojochemi Eyo-Inyang, ACIPM.",
       title: "ACIPM",
       role: "COO/Director",
@@ -36,33 +63,6 @@ export const teamMembers = [
         `
     },
     {
-      id: 2,
-      name: " MR, INYANG EYO",
-      title: "",
-      role: "Founder/CEO",
-      slug: "inyan-eyo",
-      image: "/assets/hogan.JPG",
-      summary: "Founder and CEO with extensive experience...",
-      expertise: [
-        // Add expertise
-      ],
-      fullBio: `
-       
-        <p>FOUNDER & Cinematographer</p>
-
-        <p>As the fonder and the CEO of Creative Click Ltd, a leading creative agency, I bring a unique blend of business acumen and artistic vision to the forefront of the media industry. With a deep-rooted passion for visual storytelling, I have carved out a distinguished career as a cinematographer, delivering innovative and impactful solutions to organizations both locally and internationally.
-        </p>
-
-        <p>Under my leadership, Creative Click Ltd has become synonymous with creativity, quality, and innovation. We specialize in crafting tailored visual experiences that resonate with audiences across various platforms, from feature films and television series to commercials, digital content, and corporate media. My role as Founder and CEO involves steering the strategic direction of the company, fostering a culture of creativity and excellence, and ensuring that we consistently exceed client expectations.
-        </p>
-        <p>As a cinematographer, I have had the privilege of working with a diverse range of clients in the media space, developing customized visual strategies that align with their brand identity and objectives. My work is characterized by a meticulous attention to detail, a strong sense of composition, and a deep understanding of the power of visual narratives. Whether working on large-scale international productions or intimate local projects, I bring the same level of dedication and creativity to every endeavor.
-        </p>
-        <p>My dual role as CEO and cinematographer allows me to bridge the gap between creative vision and business strategy, ensuring that every project we undertake is not only visually stunning but also aligned with our clients' goals and market demands. With a global perspective and a commitment to pushing the boundaries of what's possible, I am dedicated to leading Creative Click Ltd to new heights in the ever-evolving media landscape.
-        </p>
-
-      `
-    },
-    {
         id: 3,
         name: "Barrister Chioma Esuabom",
         title: "",
@@ -80,7 +80,7 @@ export const teamMembers = [
         </p>
         `
       },
-    // Add other team members...
+
   ];
   
   // Helper function to get team member by slug
