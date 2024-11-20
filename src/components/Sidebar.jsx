@@ -49,38 +49,24 @@ const Sidebar = ({ isActive, setIsActive }) => {
             </li>
             <li>
               <div className="relative">
-                <button onClick={toggleAbout} className="flex items-center justify-between w-full py-2 px-4 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                <Link href="/aboutus" className="py-2 px-4 text-gray-700 hover:text-customOrange hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
                   About
-                  <IoIosArrowDown className={`ml-2 transform transition-transform ${aboutExpanded ? 'rotate-180' : ''}`} />
-                </button>
-                {aboutExpanded && (
-                  <ul className="pl-4 mt-2 space-y-2">
-                    <li>
-                      <Link href="#our-company" onClick={handleLinkClick} className="block py-2 px-4 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                        Our Company
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#our-team" onClick={handleLinkClick} className="block py-2 px-4 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                        Our Team
-                      </Link>
-                    </li>
-                  </ul>
-                )}
+                </Link>
+                
               </div>
             </li>
             <li>
-              <Link href="#services" onClick={handleLinkClick} className="block py-2 px-4 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+              <Link href="/services" onClick={handleLinkClick} className="block py-2 px-4 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="#package" onClick={handleLinkClick} className="block py-2 px-4 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+              <Link href="/package" onClick={handleLinkClick} className="block py-2 px-4 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
                 Package
               </Link>
             </li>
             <li>
-              <Link href="#contact" onClick={handleLinkClick} className="block py-2 px-4 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+              <Link href="/contactus" onClick={handleLinkClick} className="block py-2 px-4 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
                 Contact
               </Link>
             </li>

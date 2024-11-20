@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion';
 import { Film, Mic, Newspaper, Heart, Lightbulb, TrendingUp, ShieldCheck } from 'lucide-react';
 
 const CustomSVGVision = () => (
@@ -10,24 +11,34 @@ const CustomSVGMission = () => (
 );
 
 const FeatureCard = ({ icon: Icon, title, description }) => (
-  <div className="flex flex-col items-start p-6 border border-gray-500 hover:bg-black hover:text-white rounded-sm w-full">
+  <motion.div className="flex flex-col items-start p-6 border border-gray-500 hover:bg-black hover:text-white rounded-sm w-full"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true, amount: 0.5 }}
+  transition={{ duration: 0.5, ease: 'easeOut' }}
+  >
     <div className="flex items-center w-full mt-3">
       <Icon className="w-8 h-8 text-gray-700 dark:text-gray-400 mr-4" />
       <hr className="flex-grow border-t-2 border-gray-300 -mr-6" style={{ height: '1px' }} />
     </div>
     <h3 className="mt-4 mb-2 text-xl font-bold">{title}</h3>
     <p className="text-sm py-5">{description}</p>
-  </div>
+  </motion.div>
 );
 
 const ValueCard = ({ icon: Icon, title, description }) => (
-  <div className="flex flex-col items-center p-6 bg-gray-50 dark:bg-gray-900 rounded-lg transition-transform duration-300 hover:scale-105">
+  <motion.div className="flex flex-col items-center p-6 bg-gray-50 dark:bg-gray-900 rounded-lg transition-transform duration-300 hover:scale-105"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true, amount: 0.5 }}
+  transition={{ duration: 0.5, ease: 'easeOut' }}
+  >
     <div className="p-3 bg-black dark:bg-white rounded-full mb-4">
       <Icon className="w-6 h-6 text-white dark:text-black" />
     </div>
     <h4 className="text-lg font-bold mb-2">{title}</h4>
     <p className="text-sm text-center text-gray-600 dark:text-gray-400">{description}</p>
-  </div>
+  </motion.div>
 );
 
 const About = () => {

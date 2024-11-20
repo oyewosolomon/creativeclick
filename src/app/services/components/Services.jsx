@@ -29,12 +29,12 @@ const Services = () => {
     {
       title: 'Photography',
       description: 'Capture moments with precision and creativity through our professional photography services. From portraits to events and promotional shoots, we bring artistic vision and technical expertise to create stunning photographs tailored to your needs.\n\nWhat to Expect: Our services include a pre-shoot discussion, on-location or studio setups, and expert editing to deliver high-resolution images. Clients can also request customized photo albums or framed prints as keepsakes.',
-      img: '/assets/services-5.jpg',
+      img: '/assets/services-5.jpeg',
     },
     {
       title: 'YouTube Content',
       description: 'We help you elevate your YouTube channel with content that stands out. From ideation to production, our team creates engaging, high-quality videos that align with your brand and captivate your audience.\n\nWhat to Expect: Clients receive concept development, scriptwriting, shooting, and editing services. We also offer assistance with channel branding and optimizing videos for YouTube\'s algorithm to increase visibility and engagement.',
-      img: "/assets/cinema.jpg",
+      img: "/assets/film.jpeg",
     },
     {
       title: 'Drone Services',
@@ -44,7 +44,7 @@ const Services = () => {
     {
       title: 'Films Production',
       description: 'Whether it\'s a short film, feature-length project, or branded content, our Film Production service delivers cinematic quality from start to finish. We handle everything from pre-production to post-production to bring your vision to life.\n\nWhat to Expect: Clients can expect scriptwriting assistance, casting support, professional filming, and meticulous editing. Additional options include color grading, sound design, and distribution support to ensure your film achieves its goals.',
-      img: "/assets/film.jpeg",
+      img: "/assets/cinema.jpg",
     },
     {
       title: 'Real Estate Content',
@@ -105,9 +105,9 @@ const Services = () => {
                 {service.title}
               </div>
               {/* Description on Hover */}
-              <div className="absolute inset-0 z-20 hidden group-hover:flex flex-col justify-center items-center text-center bg-black/70 text-white px-4 transition-all duration-300">
-                <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
-                <p className="text-sm md:text-base">{service.description}</p>
+              <div className="absolute inset-0 z-20 hidden group-hover:flex flex-col overflow-y-auto md:overflow-y-hidden justify-center items-center text-center bg-black/70 text-white px-4 transition-all duration-300">
+                <h3 className="text-2xl font-bold mb-2 pt-6 ">{service.title}</h3>
+                <p className="text-sm md:text-base pb-3">{service.description}</p>
               </div>
             </motion.div>
           ))}
