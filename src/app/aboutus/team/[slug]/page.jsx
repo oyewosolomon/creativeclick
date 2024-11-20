@@ -1,5 +1,5 @@
 // app/aboutus/team/[slug]/page.js
-import { getTeamMemberBySlug, getAllTeamMemberSlugs } from '@/app/data/team'
+import { getTeamMemberBySlug, getAllTeamMemberSlugs } from '../../../../app/data/team'
 import { notFound } from 'next/navigation';
 import ProfilePage from '../../components/ProfilePage';
 

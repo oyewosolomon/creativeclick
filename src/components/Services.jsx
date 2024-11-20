@@ -2,10 +2,10 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import service1 from '@/assets/services-1.jpg'
-import service2 from '@/assets/services-2.jpg'
-import service3 from '@/assets/services-3.jpg'
-import service5 from '@/assets/services-5.jpeg'
+import service1 from '../assets/services-1.jpg'
+import service2 from '../assets/services-2.jpg'
+import service3 from '../assets/services-3.jpg'
+import service5 from '../assets/services-5.jpeg'
 import Image from 'next/image'
 import Link from 'next/link'
 

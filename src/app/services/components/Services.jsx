@@ -2,10 +2,6 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import service1 from '@/assets/services-1.jpg'
-import service2 from '@/assets/services-2.jpg'
-import service3 from '@/assets/services-3.jpg'
-import service5 from '@/assets/services-5.jpeg'
 import Image from 'next/image'
 
 const Services = () => {
@@ -18,22 +14,22 @@ const Services = () => {
     {
       title: 'Event Covers',
       description: 'Turn your special moments into lasting memories with our Event Covers service. Whether it\'s a wedding, corporate event, birthday, or cultural celebration, we specialize in capturing the essence of your event with professional photography and videography. From candid emotional shots to detailed highlights of the decor, our team ensures no moment goes unnoticed.\n\nWhat to Expect: We begin with a pre-event consultation to understand your vision and specific needs. On the day, our skilled team works discreetly to capture every significant moment, delivering high-quality edited images and videos within an agreed timeframe. Optional add-ons include highlight reels, photo books, and same-day edits.',
-      img: service1,
+      img: '/assets/services-1.jpg',
     },
     {
       title: 'Documentaries',
       description: 'We bring stories to life with our Documentary Production services, tailored to capture compelling narratives. Whether you’re documenting personal journeys, cultural traditions, or corporate milestones, we combine artistic visuals and powerful storytelling to create documentaries that engage and inform your audience.\n\nWhat to Expect: Clients can expect an end-to-end service, starting with a consultation to define the narrative and scope. We provide script assistance, filming, and post-production, ensuring a seamless process. The final product is a polished documentary ready for broadcast or private sharing.',
-      img: service2,
+      img: '/assets/services-2.jpg',
     },
     {
       title: 'Live Streaming',
       description: 'Our Live Streaming service connects you with audiences anywhere in the world in real time. Ideal for conferences, weddings, concerts, or product launches, we ensure a smooth, high-quality streaming experience across multiple platforms.\n\nWhat to Expect: We set up professional equipment and provide technical support throughout the event. Clients receive a consultation to choose the streaming platforms and formats that best suit their needs, along with the option for recorded streams for future use.',
-      img: service3,
+      img: '/assets/services-3.jpg',
     },
     {
       title: 'Photography',
       description: 'Capture moments with precision and creativity through our professional photography services. From portraits to events and promotional shoots, we bring artistic vision and technical expertise to create stunning photographs tailored to your needs.\n\nWhat to Expect: Our services include a pre-shoot discussion, on-location or studio setups, and expert editing to deliver high-resolution images. Clients can also request customized photo albums or framed prints as keepsakes.',
-      img: service5,
+      img: '/assets/services-5.jpg',
     },
     {
       title: 'YouTube Content',

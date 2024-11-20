@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { Locate, Mail, Phone } from 'lucide-react';
 import Image from 'next/image';
-import touchbg from '@/assets/DJI_0769.jpg';
 import Contact from './Contact';
 import NewsletterEmbed from './NewesletterEmbed';
 
@@ -13,8 +12,10 @@ export default function ContactUs() {
       {/* Header Section with Image */}
       <div className="relative">
         <Image
-          src={touchbg}
+          src="/assets/aerial.jpg"
           alt="Contact Us Header"
+          width={1000}
+          height={1000}
           className="w-full h-64 object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">

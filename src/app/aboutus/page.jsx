@@ -1,13 +1,12 @@
 "use client"
 
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
-import Team from '@/components/Team'
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
+import Team from '../../components/Team'
 import React from 'react'
 import Image from 'next/image'
-import { motion } from 'framer-motion';
-import touchbg from '@/assets/DJI_0769.jpg';
 import Aboutus from './components/Aboutus'
+import { motion } from 'framer-motion'
 
 const page = () => {
   return (
@@ -15,7 +14,9 @@ const page = () => {
         <Navbar/>
         <div className="relative">
         <Image
-          src={touchbg}
+          src="/assets/aerial.jpg"
+          width={1000}
+          height={1000}
           alt="Contact Us Header"
           className="w-full h-64 object-cover"
         />

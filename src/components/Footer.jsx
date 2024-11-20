@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '@/assets/creativeclick.jpg'
+import logo from '../assets/creativeclick.jpg'
 import Image
  from 'next/image'
 const Footer = () => {

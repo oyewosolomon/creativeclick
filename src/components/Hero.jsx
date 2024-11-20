@@ -9,14 +9,14 @@ import { useMotionValue, useSpring } from 'framer-motion';
 import { motion as motion3d } from 'framer-motion-3d';
 import styles from "./style.module.scss"
 import Contact from './Contact';
-import { Modal } from "@/components/ui/AnimatedModal";
+import { Modal } from "../components/ui/AnimatedModal";
 
-import service1 from '@/assets/services-1.jpg'
-import service2 from '@/assets/services-2.jpg'
-import service3 from '@/assets/services-3.jpg'
-import service4 from '@/assets/services-4.jpg'
-import service5 from '@/assets/services-5.jpeg'
-import service6 from '@/assets/services-6.jpg'
+import service1 from '../assets/services-1.jpg'
+import service2 from '../assets/services-2.jpg'
+import service3 from '../assets/services-3.jpg'
+import service4 from '../assets/services-4.jpg'
+import service5 from '../assets/services-5.jpeg'
+import service6 from '../assets/services-6.jpg'
 
 const Hero = () => {
     const controls = useAnimation();

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { AnimatedModalDemo } from "@/components/Modal";
+import { AnimatedModalDemo } from "../components/Modal";
 
 const Package = () => {
     return (

@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import React, { useState } from 'react'
-import logo from '@/assets/creativeclick.jpg'
+import logo from '../assets/creativeclick.jpg'
 import ThemeToggle from './ThemeToggle'
 import {IoIosArrowDown,IoIosMoon} from "react-icons/io"
 import { MdOutlineLightMode } from "react-icons/md";

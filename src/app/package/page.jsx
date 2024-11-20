@@ -1,6 +1,6 @@
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
-import Package from '@/components/Package'
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
+import Package from '../../components/Package'
 import React from 'react'
 
 const page = () => {
