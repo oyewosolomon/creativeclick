@@ -97,7 +97,7 @@ const Services = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <Link href="/services" className="text-white bg-black hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:bg-customOrange font-medium rounded-lg text-sm px-6 py-2 text-center dark:bg-white dark:text-black dark:hover:bg-customOrange dark:focus:ring-customOrange">
-            View All
+            More Services
           </Link>   
         </motion.div>
       </div>

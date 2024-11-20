@@ -14,7 +14,7 @@ const Package = () => {
     
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Bronze Package */}
-              <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col">
+              <div className="bg-white text-black shadow-lg rounded-lg p-8 flex flex-col">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Bronze Package</h2>
                 <ul className="space-y-3 flex-grow">
                 <li className='flex align-items-middle place-items-center'>
@@ -45,7 +45,7 @@ const Package = () => {
               </div>
     
               {/* Silver Package */}
-              <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col">
+              <div className="bg-white text-black shadow-lg rounded-lg p-8 flex flex-col">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Silver Package</h2>
                 <ul className="space-y-3 flex-grow">
                     <li className='flex align-items-middle place-items-center'>
@@ -89,7 +89,7 @@ const Package = () => {
               </div>
     
               {/* Gold Package */}
-              <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col">
+              <div className="bg-white text-black shadow-lg rounded-lg p-8 flex flex-col">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Gold Package</h2>
                 <ul className="space-y-3 flex-grow">
                     <li className='flex align-items-middle place-items-center'>
@@ -133,10 +133,7 @@ const Package = () => {
                        &nbsp;<span>Content Plan</span></li>
                 </ul>
                 <div className="mt-6">
-                <AnimatedModalDemo/>  
-                  {/* <button className="w-full bg-customOrange text-white py-2 rounded-lg hover:bg-customOrange transition mt-auto">
-                    Choose Gold
-                  </button> */}
+                <AnimatedModalDemo/> 
                 </div>
               </div>
             </div>
